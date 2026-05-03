@@ -31,7 +31,7 @@ export const profile = {
   phone: "+880 1981 916908",
   github: "https://github.com/mosnurahmed",
   linkedin: "https://www.linkedin.com/in/mosnurahmed",
-  resumeUrl: "/MOSNUR-AHMED-CV.pdf",
+  resumeUrl: "/Mosnur_Ahmed_CV.pdf",
   avatar: "/Monsur.png",
   bio: `Mid-level software engineer focused on shipping reliable, user-loved products. I work end-to-end across the React, Next.js, React Native, Flutter and MERN (MongoDB · Express · React · Node) ecosystems — turning ambiguous problems into clean architecture, performant interfaces and resilient services.`,
   highlights: [
