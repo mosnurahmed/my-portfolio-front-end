@@ -10,6 +10,9 @@ type Props = {
   href?: string;
   onClick?: () => void;
   variant?: "primary" | "ghost";
+  download?: boolean | string;
+  target?: string;
+  rel?: string;
 };
 
 export function MagneticButton({
@@ -18,6 +21,9 @@ export function MagneticButton({
   href,
   onClick,
   variant = "primary",
+  download,
+  target,
+  rel,
 }: Props) {
   const ref = useRef<HTMLButtonElement | HTMLAnchorElement>(null);
   const x = useMotionValue(0);
@@ -57,6 +63,9 @@ export function MagneticButton({
       <a
         ref={ref as React.RefObject<HTMLAnchorElement>}
         href={href}
+        download={download as any}
+        target={target}
+        rel={rel}
         onMouseMove={onMove}
         onMouseLeave={onLeave}
         className={cn(baseClass, "will-change-transform", className)}

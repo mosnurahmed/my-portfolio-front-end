@@ -98,7 +98,7 @@ export function Hero() {
               <Mail className="h-4 w-4" />
               Hire me
             </MagneticButton>
-            <MagneticButton href={profile.resumeUrl} variant="ghost">
+            <MagneticButton href={profile.resumeUrl} variant="ghost" download>
               <Download className="h-4 w-4" />
               Download CV
             </MagneticButton>
