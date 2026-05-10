@@ -232,7 +232,8 @@ export const projects: Project[] = [
       "Final-year capstone — also published in MDPI Applied Sciences. Maximizes bus-seat occupancy and bundles tour packages with a guide & blog portal.",
     tags: ["React", "Redux", "Express", "Tailwind"],
     links: [
-      { label: "Source", href: "https://github.com/mosnurahmed/Pothik", type: "github" },
+      { label: "Live", href: "https://fydp-pothik.vercel.app/", type: "live" },
+      { label: "Source", href: "https://github.com/mosnurahmed/FYDP-Pothik", type: "github" },
       { label: "Read paper", href: "https://www.mdpi.com/2076-3417/13/19/10973", type: "live" },
     ],
     accent: "from-cyan-400 to-emerald-400",
